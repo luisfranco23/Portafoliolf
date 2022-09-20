@@ -1,0 +1,42 @@
+.loader {
+    background-color: #123a54;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rombo {
+    border: 5px solid #64ffda;
+    width: 100px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    animation: border infinite 6000ms normal;
+}
+span {
+    font-size: 3rem;
+    color: #64ffda;
+    transform: rotate(-45deg);
+    position: fixed;
+}
+
+@keyframes border {
+    0% {
+        transform: rotate(45deg);
+    }
+    20% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(135deg);
+    }
+    80% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(225deg);
+    }
+}
