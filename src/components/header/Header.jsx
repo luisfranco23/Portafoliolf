@@ -23,12 +23,12 @@ const Header = () => {
             <nav className='navbar' ref={navbar}>
                 <ul className="navbar__list">
                     <li className='navbar__link' onClick={openCloseNav}>
-                        <NavLink to='/' className='link'>
+                        <NavLink to='/' className='link desktop'>
                             <p>Sobre mi</p>
                         </NavLink>
                     </li>
                     <li className='navbar__link' onClick={openCloseNav}>
-                        <NavLink to='/projects' className='link'>
+                        <NavLink to='/projects' className='link desktop'>
                             <p>Projects</p>
                         </NavLink>
                     </li>

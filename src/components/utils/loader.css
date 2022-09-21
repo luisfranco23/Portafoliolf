@@ -5,38 +5,80 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .rombo {
-    border: 5px solid #64ffda;
-    width: 100px;
+    border: 8px solid #64ffda;
+    border-radius: 8px;
+    width: 70px;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
-    animation: border infinite 6000ms normal;
+    animation: border infinite 6000ms alternate;
+    box-shadow: 1px 1px 1px 0 #64ffda;
 }
-span {
-    font-size: 3rem;
+.loader__span {
+    font-size: 2.5rem;
     color: #64ffda;
-    transform: rotate(-45deg);
-    position: fixed;
+    position: absolute;
+    animation: span 6000ms normal;
+    transition: span ease-in-out;
+}
+
+@keyframes span {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 @keyframes border {
     0% {
         transform: rotate(45deg);
+        box-shadow: 1px 0px 6px 2px #64ffda;
     }
-    20% {
+    15% {
         transform: rotate(90deg);
+        box-shadow: 1px 0px 4px 0px #64ffda;
+    }
+    30% {
+        transform: rotate(135deg);
+        box-shadow: inset 1px 1px 4px 0px #64ffda;
+    }
+    45% {
+        transform: rotate(180deg);
+        box-shadow: 1px 0px 4px 0px #64ffda;
     }
     60% {
-        transform: rotate(135deg);
-    }
-    80% {
-        transform: rotate(180deg);
-    }
-    100% {
         transform: rotate(225deg);
+        box-shadow: inset 1px 1px 4px 0px #64ffda;
     }
+    75%{
+        transform: rotate(270deg);
+        box-shadow: 1px 0px 4px 0px #64ffda;
+    }
+    90%{
+        transform: rotate(315deg);
+        box-shadow: inset 1px 1px 4px 0px #64ffda;
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 0px 4px 0px #64ffda;
+    }
+}
+
+
+/* visor */
+
+.visor {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

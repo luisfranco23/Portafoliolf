@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--color-secondary);
+    height: 30%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+}
+.icons__ico{
+    color: var(--color-4);
+}
+.icons__ico:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
+}
+.copy {
+    padding:10px;
+    color: var(--color-4);
+    font-size: .8rem;
+}
