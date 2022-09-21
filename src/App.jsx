@@ -5,19 +5,27 @@ import Header from './components/header/Header'
 import Projects from './components/projects/Projects'
 import { useState } from 'react'
 import LoaderScreem from './components/utils/LoaderScreem.jsx'
+import Footer from './footer/Footer'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
-
+  setTimeout(()=>{
+    setIsLoading(false)
+  },3000)
   return (
     <div className="App">
-      <LoaderScreem />
-      <Header />
-      <Routes >
-        <Route path='/' element={<Home />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='loader' element={<LoaderScreem />} />
-      </Routes>
+      {
+        isLoading ? <LoaderScreem /> : (
+          <div>
+            <Header />
+            <Routes >
+              <Route path='/' element={<Home />} />
+              <Route path='/projects' element={<Projects />} />
+            </Routes>
+            <Footer />
+          </div>
+        )
+      }
     </div>
   )
 }

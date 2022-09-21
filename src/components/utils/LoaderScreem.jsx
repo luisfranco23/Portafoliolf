@@ -4,11 +4,8 @@ import './loader.css'
 const LoaderScreem = () => {
   return (
     <div className='loader'>
-      <div className='rombo'>
-        <span>
-          LF
-        </span>
-      </div>
+      <span className='loader__span'>LF</span>
+      <div className='rombo'></div>
     </div>
   )
 }
