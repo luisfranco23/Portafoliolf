@@ -26,7 +26,7 @@ const Projects = () => {
           <img className='target__image' src={ecommerce} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/Pokedex" target='_blank'><i className='bx bxl-github'></i></a>
-            <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
+            <a className='icons__link' href="https://crud-users-js.netlify.app/" target='_blank'><i className='bx bx-link' ></i></a>
           </div>
         </div>
         <div className='target'>
@@ -35,7 +35,7 @@ const Projects = () => {
           <img className='target__image' src={pokeapi} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/ecommerce" target='_blank'><i className='bx bxl-github'></i></a>
-            <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
+            <a className='icons__link' href="https://pokedexreactjsv2.netlify.app/" target='_blank'><i className='bx bx-link' ></i></a>
           </div>
         </div>
         <div className='target'>
@@ -53,7 +53,7 @@ const Projects = () => {
           <img className='target__image' src={rickandmorty} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/rickAndMorty" target='_blank'><i className='bx bxl-github'></i></a>
-            <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
+            <a className='icons__link' href="https://rickandmortywikijs.netlify.app/" target='_blank'><i className='bx bx-link' ></i></a>
           </div>
         </div>
         <div className='target'>
@@ -62,7 +62,7 @@ const Projects = () => {
           <img className='target__image' src={clima} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/app-clima" target='_blank'><i className='bx bxl-github'></i></a>
-            <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
+            <a className='icons__link' href="https://climateappjs.netlify.app/" target='_blank'><i className='bx bx-link' ></i></a>
           </div>
         </div>
     </section>
