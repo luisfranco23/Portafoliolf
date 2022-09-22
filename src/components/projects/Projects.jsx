@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <section className='projetcs'>
       <div className="projetcs__description">
-        <h1 className='subtitle'>Poryectos</h1>
+        <h1 className='subtitle'>Proyectos</h1>
         <p className='description'>
           Aquí puedes ver los proyectos realizados la mayoría con React Js ya que es uno de los mejores Framework's para front-end, consumo de API`S manejando peticiones con axios, librerias como react hook forms, redux, react router dom, filtros con JavaScript,Animaciones con Css, uso de git fortaleciendo el trabajo en equipo.
         </p>
