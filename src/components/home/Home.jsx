@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import image from '../../assets/sad.png'
+import image from '../../assets/projetcs/photo.png'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
           Hola, soy</h3>
         <span className='name'>Luis Franco.</span>
         <h1 className='subtitle'>Developer Web Full-Satck.</h1>
-        <p className='description'>
+        <p className='description limit'>
           Crear, estilizar y agregar funciones a la web es algo increible ya que podemos plasmar todas las ideas que tengas y sacarle el mayor provecho, me gusta estar creando proyectos y aprendiendo del mundo IT son muchas habilidades por adquirir y mejorar.
         </p>
         <a className='dowland' href='https://drive.google.com/file/d/1P1jG-CC9Hwa5re7nTH1cTnTjwepM4agE/view' target='_blank'>Descargar CV</a>
@@ -43,8 +43,8 @@ const Home = () => {
         </aside>
         <section className='contacto'>
           <h3 className="main__subtitle">Contactame</h3>
-          <p className='description'>
-            Actualmente me encuentro en busqueda de mi primer empleo como developer, en caso tal de que tengas esa oportunidad y te gusta mi perfil, mis proyectos y/o habilidades puedes contactarme, en otro caso puedes dejarme mensaje por <span className='title'>LinkedIn</span> si tienes recomendaciones y/o preguntas .
+          <p className='description center'>
+            Actualmente me encuentro en busqueda de mi primer empleo como developer, en caso tal de que tengas esa oportunidad y te gusta mi perfil, mis proyectos y/o habilidades puedes contactarme, en otro caso puedes dejarme mensaje por <a href="https://www.linkedin.com/in/luis-franco-b72a24175/" target='_blank' className='title linke'>LinkedIn</a> si tienes recomendaciones y/o preguntas .
           </p>
           <aside className='mail'>
             <a className='dowland' href="mailto:lafrancol05@gmail.com">¡Saludame!</a>

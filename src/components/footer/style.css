@@ -20,6 +20,9 @@
     color: var(--color-primary);
     transform: scale(1.1);
 }
+.linke {
+    text-decoration: none;
+}
 .copy {
     padding:10px;
     color: var(--color-4);

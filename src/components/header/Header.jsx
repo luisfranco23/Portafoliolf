@@ -9,10 +9,14 @@ const Header = () => {
         navbar.current.classList.toggle('navbar__open')
     }
 
+    const reloand = () => {
+        location.reload()
+    }
+
     return (
         <header className='header'>
             <h1 className='header__logo'>
-                <Link to='/' className='link logo' >
+                <Link onClick={reloand} className='link logo' >
                     &lt;LF
                     <span className='barra'>/</span>&gt;
                 </Link>

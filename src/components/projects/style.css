@@ -4,6 +4,7 @@
     background-color: var(--color-secondary);
     padding-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -12,10 +13,15 @@
     margin: 0 auto;
     width: 80%;
 }
+.targets {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
 .target {
     height: auto;
     width: min(80%, 300px);
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: var(--color-tarjet);
     padding: 20px;
     border-radius: 5px;
@@ -39,6 +45,10 @@
     height: auto;
     border-radius: 5px;
 }
+.number {
+    color: var(--color-primary);
+    font-weight: 400;
+}
 
 .icons {
     display: flex;
@@ -52,4 +62,8 @@
 .icons__link:hover {
     color: var(--color-primary);
     transform: scale(1.1);
+}
+
+@media screen and (min-width: 700px) {
+    
 }

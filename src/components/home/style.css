@@ -46,7 +46,7 @@
 
 }
 .main {
-    margin:0 10%;
+    margin: 0 10%;
     padding-top: 100px;
 }
 .main__subtitle {
@@ -67,17 +67,25 @@
     border-radius: 2px;
     margin-bottom: 50px;
 }
-.profile__img:hover > .margin {
+.photo__me:hover ~ .margin {
     transition: transform .3s ease-in-out;
     transform: translate(5px, 5px);
 }
-
 .photo__me {
-    height: 300PX;
+    width: 300px;
     aspect-ratio: 1;
+    border-radius: 3px;
+    box-shadow: 6px 12px 10px 0px #123a5485;
+    filter: grayscale(50%);
+    z-index: 1;
     position: absolute;
-    top: 0;
-    right: 50%;
+    top: 10%;
+    right: 40%;
+}
+.photo__me:hover {
+    filter: brightness(.9);
+    transition: transform .3s ease-in-out;
+    transform: translate(-5px, -5px);
 }
 .skills {
     display: flex;
@@ -106,4 +114,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+    .title {
+        padding-top: 40%;
+    }
+}
+@media screen and (min-width:1000px) {
+    .title {
+        padding-top: 20%;
+    }
+    .home__section {
+        margin: 0 20%;
+    }
+    .main {
+        margin: 0 20%;
+    }
+    .name {
+        font-size: 3.5rem;
+    }
+    .subtitle {
+        font-size: 3.5rem;
+        line-height: 0;
+    }
+    .limit {
+        width: 70%;
+    }
+    .dowland {
+        padding: 15px 50px;
+    }
+    .center {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .photo__me {
+        top: 10%;
+        right: 20%;
+    }
 }
