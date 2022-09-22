@@ -8,7 +8,7 @@
     position: fixed;
     width: 100vw;
     z-index: 2;
-    box-shadow: 10px 1px 4px 0 var(--color-primary);
+    box-shadow: 0px 1px 4px 0 var(--color-primary);
 }
 .header__menu{
     font-size: 2.3rem;
@@ -82,10 +82,11 @@
     }
     .header {
         height: 10%;
+        width: 100vw;
     }
     .navbar__open {
         transform: translateX(0);
-        transition-duration: 0;
+        transition-duration: 0s;
     }
     .navbar {
         transform: translateX(0);
@@ -98,18 +99,18 @@
         box-shadow: 0 0 0 0 transparent;
     }
     .navbar__list {
-        width: auto;
         flex-direction: row;
         height: 10%;
     }
     .navbar__link {
         width: 200px;
+        height: auto;
         padding: 0;
         position: relative;
     }
     .navbar__link:active{
-        transform: scale(1.1);
         transition: transform 1s ease-in-out;
+        transform: scale(1.1);
     }
     .desktop {
         color: var(--color-text);
