@@ -1,5 +1,9 @@
 import React from 'react'
 import ecommerce from '../../assets/projetcs/ecommerce.png'
+import users from '../../assets/projetcs/users.png'
+import clima from '../../assets/projetcs/clima.png'
+import pokeapi from '../../assets/projetcs/pokeapi.png'
+import rickandmorty from '../../assets/projetcs/rickandmorty.png'
 import '../home/style.css'
 import './style.css'
 
@@ -28,7 +32,7 @@ const Projects = () => {
         <div className='target'>
           <h2 className='target__subtitle'>Pokedex</h2>
           <p className='target__description'>Consume pokeApi utilizando React js, props, filtros y rutas progidas con el fin de mostrar los pokemones y todas sus habilidades individualmente, metodos de JavaScript, librerias como axios, react hook form y react douter dom, paginación con JavaScript.</p>
-          <img className='target__image' src={ecommerce} alt='ecommerce' />
+          <img className='target__image' src={pokeapi} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/ecommerce" target='_blank'><i className='bx bxl-github'></i></a>
             <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
@@ -37,7 +41,7 @@ const Projects = () => {
         <div className='target'>
           <h2 className='target__subtitle'>Usuarios App</h2>
           <p className='target__description'>Aquí puedes leer, crear, editar y eliminar usuarios (CRUD), cosume una API con axios uso de React Js manejando todas las peticiones http y excelente estilizado con css.</p>
-          <img className='target__image' src={ecommerce} alt='ecommerce' />
+          <img className='target__image' src={users} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/CRUD-USERS" target='_blank'><i className='bx bxl-github'></i></a>
             <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
@@ -46,7 +50,7 @@ const Projects = () => {
         <div className='target'>
           <h2 className='target__subtitle'>Rick And Morty</h2>
           <p className='target__description'>Puedes ver todos los planetas y sus habitantes, mostrando información detallada del mismo; consume una API, realizado con React Js y sus librerias.</p>
-          <img className='target__image' src={ecommerce} alt='ecommerce' />
+          <img className='target__image' src={rickandmorty} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/rickAndMorty" target='_blank'><i className='bx bxl-github'></i></a>
             <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
@@ -55,7 +59,7 @@ const Projects = () => {
         <div className='target'>
           <h2 className='target__subtitle'>Clima</h2>
           <p className='target__description'>Podemos obtener el estado del clima según tu ubicación y cambiar de ºC a ºF, de mis primeros proyectos consumiento una API y usando useState y useEffect.</p>
-          <img className='target__image' src={ecommerce} alt='ecommerce' />
+          <img className='target__image' src={clima} alt='ecommerce' />
           <div className="icons">
             <a className='icons__link' href="http://github.com/luisfranco/app-clima" target='_blank'><i className='bx bxl-github'></i></a>
             <a className='icons__link' href="http://" target='_blank'><i className='bx bx-link' ></i></a>
