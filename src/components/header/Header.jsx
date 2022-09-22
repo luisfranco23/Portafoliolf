@@ -29,7 +29,7 @@ const Header = () => {
                     </li>
                     <li className='navbar__link' onClick={openCloseNav}>
                         <NavLink to='/projects' className='link desktop'>
-                            <p>Projects</p>
+                            <p>Proyectos</p>
                         </NavLink>
                     </li>
                 </ul>

@@ -11,14 +11,14 @@ const Home = () => {
         <span className='name'>Luis Franco.</span>
         <h1 className='subtitle'>Developer Web Full-Satck.</h1>
         <p className='description'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, consequatur deserunt quisquam, tempora explicabo obcaecati iusto reprehenderit assumenda incidunt molestias ullam eligendi, nobis ad inventore harum. Reprehenderit dicta hic provident?
+          Crear, estilizar y agregar funciones a la web es algo increible ya que podemos plasmar todas las ideas que tengas y sacarle el mayor provecho, me gusta estar creando proyectos y aprendiendo del mundo IT son muchas habilidades por adquirir y mejorar.
         </p>
         <a className='dowland' href='https://drive.google.com/file/d/1P1jG-CC9Hwa5re7nTH1cTnTjwepM4agE/view' target='_blank'>Descargar CV</a>
       </section>
       <main className='main'>
         <h2 className='main__subtitle'>Sobre mí </h2>
-        <p className='description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore illo est rerum eius voluptas amet, veniam modi laboriosam hic consectetur debitis error qui, totam deleniti molestiae vel quas voluptatem nesciunt.</p>
-        <p className='description'>Lorem, ipsum dolor sit amet consectetu r adipisicing elit. Ex magnam ipsa autem alias rerum minima, in excepturi iusto reprehenderit tempore saepe ea repellat ullam, odit, totam fugiat labore illum tenetur.</p>
+        <p className='description'>Mis habilidades técnicas se encuentran en constante crecimiento, he creado diferentes proyectos con los que puedes interactuar en la sección de proyectos, desarrolladas con React Js y sus librerias estilizadas con css y funcionalidades con JavaScript, mi experiencia la baso en mis proyectos tanto personales y proyectos pequeños en una intranet de una empresa.</p>
+        <p className='description'>Me gusta estar en constante aprendizaje y trabajar en equipo ya que de esta forma puedo conocer nuevas culturas, formas de trabajo y experiencias que nos hacen mejor personas, soy proactivo y demuestro liderazgo en mi equipo.</p>
         <div className="profile__img">
           <img className='photo__me' src={image} alt="me" />
           <div className="margin">
@@ -44,7 +44,7 @@ const Home = () => {
         <section className='contacto'>
           <h3 className="main__subtitle">Contactame</h3>
           <p className='description'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ad in facere, obcaecati hic animi? Id voluptatibus sit assumenda placeat eligendi, optio, similique pariatur iste consequatur quaerat maxime? Assumenda, repellendus.
+            Actualmente me encuentro en busqueda de mi primer empleo como developer, en caso tal de que tengas esa oportunidad y te gusta mi perfil, mis proyectos y/o habilidades puedes contactarme, en otro caso puedes dejarme mensaje por <span className='title'>LinkedIn</span> si tienes recomendaciones y/o preguntas .
           </p>
           <aside className='mail'>
             <a className='dowland' href="mailto:lafrancol05@gmail.com">¡Saludame!</a>
