@@ -56,21 +56,6 @@
     60% {
         transform: rotate(225deg);
         box-shadow: inset 1px 1px 4px 0px #64ffda;
-<<<<<<< HEAD
-=======
-    }
-    75%{
-        transform: rotate(270deg);
-        box-shadow: 1px 0px 4px 0px #64ffda;
-    }
-    90%{
-        transform: rotate(315deg);
-        box-shadow: inset 1px 1px 4px 0px #64ffda;
-    }
-    100%{
-        transform: rotate(360deg);
-        box-shadow: 1px 0px 4px 0px #64ffda;
->>>>>>> 4f552f37a6d897e386f8243fff78fee9d58d8c82
     }
     75%{
         transform: rotate(270deg);

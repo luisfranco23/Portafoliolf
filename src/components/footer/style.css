@@ -1,7 +1,7 @@
 .footer {
     background-color: var(--color-secondary);
     height: 30%;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
